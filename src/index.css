@@ -1,0 +1,161 @@
+.logo-Container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+ .header {
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 10px 20px;
+  background-color: #f0f0f0;}
+.nav-Items > ul{
+  display: flex;
+
+}
+.nav-Items > ul> li{
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.res-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px;
+  
+}
+.filter{
+  padding: 10px;
+  margin: 5px;
+}
+.filter>.filter-btn{
+  padding: 2px;
+  border-radius: 5px;
+  margin: 1px;
+  background-color: cadetblue;
+}
+ /* .res-Card > .img-First
+ {
+  padding: 5px;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid black;
+  
+  
+  
+}  */
+.res-card {
+  width: 220px; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  padding: 10px; 
+  display: flex; 
+  flex-direction: column; 
+  background-color: #fff; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+.res-Card > .img-First {
+  width: 100%; /* Make the image fill the container */
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Ensure image covers area without distortion */
+  border-radius: 8px; /* Rounded corners for the image */
+  cursor: pointer;
+}
+
+.res-logo{
+  width: 200px;
+  height: 150px;
+}
+.body >.Search{
+  padding: 5px;
+  font-size: 20px;
+
+  
+}
+ .body >.res-container{
+  display: flex;
+  
+  padding: 3px;
+  margin: 2px;
+}
+.login{
+  margin:  0 20px;
+  padding: 4px;
+  border-radius: 4px;
+  font-weight: bold;
+  
+}
+.shimmer-card{
+  width:200px ;
+  height: 400px;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+.shimmer-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.search{
+  margin: 10px;
+  padding: 2px;
+  
+}
+.btn-name{
+  padding: 2px;
+  margin: 4px;
+  font-size: medium;
+  border-radius: 3px;
+}
+.search > .search-box{
+  padding: 4px;
+  margin: 2px;
+  border-radius: 3px;
+  
+}
+.img-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+  margin: 5px;
+  border-radius: 10px;
+  padding-left: 4px;
+  cursor: pointer;
+  border-width: 5px;
+  box-shadow: #ccc;
+  
+  
+
+}
+.restronameheight{
+  padding-left: 10px;
+}
+.stars{
+  padding-left: 10px;
+  cursor: pointer;
+  color: darkgreen;
+}
+.areaname{
+  
+  padding-left: 10px;
+  cursor: pointer;
+  color: dimgrey;
+}
+.restronameheight{
+  color: black;
+}
+.shimmer-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
