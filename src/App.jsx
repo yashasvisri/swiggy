@@ -1,20 +1,39 @@
-
 import React from "react";
 import Header from "./components/Header.jsx";
 import Body from "./components/Body.jsx";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Outlet } from "react-router-dom";
+import About from "./components/About.jsx";
+import Contact from "./components/Contact.jsx";
+import Error from "./components/Error.jsx"
+import Cart from "./components/Cart.jsx";
 
-function App() {
+function AppLayout() {
   return (
     <div>
       <Header />
-      <Body></Body>
+      <Outlet />
     </div>
   );
 }
-// const appRouter= createBrowserRouter([
+const appRouter = createBrowserRouter([
+  {
+    path: "/",
+    element: <AppLayout />,
+    
 
+    children: [
+      {
+        path: "/",
 
-// ])
+        element: <Body />,
+      },
 
-export default App;
+      { path: "/about", element: <About /> },
+
+      { path: "/contact", element: <Contact /> },
+      { path: "/cart", element: <Cart/> },
+    ],
+      errorElement: <Error/>
+  },
+]);
+export { appRouter };

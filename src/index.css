@@ -93,6 +93,12 @@
   padding: 4px;
   border-radius: 4px;
   font-weight: bold;
+  background-color: lightslategray;
+  opacity: 0.6; 
+  border-radius: 3px;
+  border: 1px solid #ccc   
+
+
   
 }
 .shimmer-card{
@@ -115,6 +121,11 @@
   margin: 4px;
   font-size: medium;
   border-radius: 3px;
+  border: 2px solid #ccc;
+  background-color: lightslategray;
+  opacity: 0.6;    
+
+  
 }
 .search > .search-box{
   padding: 4px;
@@ -158,4 +169,10 @@
   display: flex;
   flex-wrap: wrap;
 }
-
+.cusines{
+  padding: 2px;
+  margin: 2px;
+}
+.textbg{
+  text-decoration: none;
+}
