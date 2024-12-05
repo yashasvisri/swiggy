@@ -7,7 +7,7 @@ function RestroCard({ data }) {
   const { cuisines } = data.info;
   const { cloudinaryImageId } = data.info;
   //this below line is converting string not extracting or distructuring  not from data.info
-  const cus = cuisines.join(",").join;
+  const cus = cuisines.join(",");
 
   return (
     <div className="container">
